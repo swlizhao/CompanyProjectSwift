@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		032417E6204D41EB0009741C /* ProductCategoryMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032417E5204D41EB0009741C /* ProductCategoryMainView.swift */; };
+		032417E9204D47120009741C /* ShoppingCartMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032417E8204D47120009741C /* ShoppingCartMainView.swift */; };
+		032DCDE21FD8F39C00A4F8EF /* PersonalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032DCDE11FD8F39C00A4F8EF /* PersonalViewController.swift */; };
+		032DCDE41FD8F3BB00A4F8EF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032DCDE31FD8F3BB00A4F8EF /* LoginViewController.swift */; };
+		032DCDE61FD8F3CB00A4F8EF /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032DCDE51FD8F3CB00A4F8EF /* RegisterViewController.swift */; };
+		032DCDEC1FD8F3ED00A4F8EF /* ForgotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032DCDEB1FD8F3ED00A4F8EF /* ForgotViewController.swift */; };
+		032DCDFA1FD8F48500A4F8EF /* ProductCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032DCDF91FD8F48500A4F8EF /* ProductCategoryViewController.swift */; };
+		032DCDFC1FD8F49300A4F8EF /* ShoppingMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032DCDFB1FD8F49300A4F8EF /* ShoppingMainViewController.swift */; };
+		032DCDFE1FD9145500A4F8EF /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 032DCDFD1FD9145500A4F8EF /* Login.storyboard */; };
+		034A182A1FFB352B00603CED /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034A18291FFB352B00603CED /* LoginView.swift */; };
+		034A182C1FFB3ABD00603CED /* LoginVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034A182B1FFB3ABD00603CED /* LoginVM.swift */; };
+		034CF83B201586BE00133858 /* PersonalMainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034CF83A201586BE00133858 /* PersonalMainModel.swift */; };
+		034CF83D201586EE00133858 /* PersonalMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034CF83C201586EE00133858 /* PersonalMainView.swift */; };
+		034CF83F201586FE00133858 /* PersonalMainVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034CF83E201586FE00133858 /* PersonalMainVM.swift */; };
+		034CF84120159A6500133858 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034CF84020159A6500133858 /* Const.swift */; };
 		036EB9ED1FD29D060067A3C0 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036EB9EC1FD29D060067A3C0 /* BaseView.swift */; };
 		036EB9EF1FD29D350067A3C0 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036EB9EE1FD29D350067A3C0 /* BaseModel.swift */; };
 		036EB9F11FD29D4E0067A3C0 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036EB9F01FD29D4E0067A3C0 /* BaseViewModel.swift */; };
@@ -52,6 +67,21 @@
 
 /* Begin PBXFileReference section */
 		021FD9B36E8771BBE9D07C32 /* Pods_CompanyProjectSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CompanyProjectSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		032417E5204D41EB0009741C /* ProductCategoryMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCategoryMainView.swift; sourceTree = "<group>"; };
+		032417E8204D47120009741C /* ShoppingCartMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCartMainView.swift; sourceTree = "<group>"; };
+		032DCDE11FD8F39C00A4F8EF /* PersonalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalViewController.swift; sourceTree = "<group>"; };
+		032DCDE31FD8F3BB00A4F8EF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		032DCDE51FD8F3CB00A4F8EF /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		032DCDEB1FD8F3ED00A4F8EF /* ForgotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotViewController.swift; sourceTree = "<group>"; };
+		032DCDF91FD8F48500A4F8EF /* ProductCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCategoryViewController.swift; sourceTree = "<group>"; };
+		032DCDFB1FD8F49300A4F8EF /* ShoppingMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingMainViewController.swift; sourceTree = "<group>"; };
+		032DCDFD1FD9145500A4F8EF /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		034A18291FFB352B00603CED /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		034A182B1FFB3ABD00603CED /* LoginVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginVM.swift; path = CompanyProjectSwift/Classes/Login/ViewModel/LoginVM.swift; sourceTree = SOURCE_ROOT; };
+		034CF83A201586BE00133858 /* PersonalMainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalMainModel.swift; sourceTree = "<group>"; };
+		034CF83C201586EE00133858 /* PersonalMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalMainView.swift; sourceTree = "<group>"; };
+		034CF83E201586FE00133858 /* PersonalMainVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalMainVM.swift; sourceTree = "<group>"; };
+		034CF84020159A6500133858 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
 		036EB9EC1FD29D060067A3C0 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		036EB9EE1FD29D350067A3C0 /* BaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
 		036EB9F01FD29D4E0067A3C0 /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
@@ -76,8 +106,6 @@
 		18EF9EE01F7A259D0020347F /* CompanyProjectSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CompanyProjectSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18EF9EE41F7A259D0020347F /* CompanyProjectSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyProjectSwiftUITests.swift; sourceTree = "<group>"; };
 		18EF9EE61F7A259D0020347F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18EF9EF71F7A26B20020347F /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		18EF9EF81F7A26E20020347F /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
 		18EF9F061F7A28430020347F /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		18EF9F081F7A288B0020347F /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
 		18EF9F1E1F7A2AB40020347F /* BaseTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableView.swift; sourceTree = "<group>"; };
@@ -113,6 +141,148 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		032417E7204D425B0009741C /* PersonalSetting */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PersonalSetting;
+			sourceTree = "<group>";
+		};
+		032DCDE71FD8F3D200A4F8EF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				032DCDEB1FD8F3ED00A4F8EF /* ForgotViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		032DCDE81FD8F3D800A4F8EF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		032DCDE91FD8F3DD00A4F8EF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		032DCDEA1FD8F3E200A4F8EF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		032DCDED1FD8F3FB00A4F8EF /* ProductCategory */ = {
+			isa = PBXGroup;
+			children = (
+				032DCDF81FD8F46C00A4F8EF /* Models */,
+				032DCDF71FD8F46700A4F8EF /* Views */,
+				032DCDF61FD8F46000A4F8EF /* ViewModel */,
+				032DCDF51FD8F45200A4F8EF /* Controllers */,
+			);
+			path = ProductCategory;
+			sourceTree = "<group>";
+		};
+		032DCDEE1FD8F41100A4F8EF /* ShoppingCart */ = {
+			isa = PBXGroup;
+			children = (
+				032DCDEF1FD8F42300A4F8EF /* ShoppingMain */,
+				032DCDF01FD8F42E00A4F8EF /* ShoppingDetail */,
+			);
+			path = ShoppingCart;
+			sourceTree = "<group>";
+		};
+		032DCDEF1FD8F42300A4F8EF /* ShoppingMain */ = {
+			isa = PBXGroup;
+			children = (
+				032DCDF41FD8F44A00A4F8EF /* Models */,
+				032DCDF31FD8F44500A4F8EF /* Views */,
+				032DCDF21FD8F43E00A4F8EF /* ViewModel */,
+				032DCDF11FD8F43800A4F8EF /* Controller */,
+			);
+			path = ShoppingMain;
+			sourceTree = "<group>";
+		};
+		032DCDF01FD8F42E00A4F8EF /* ShoppingDetail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ShoppingDetail;
+			sourceTree = "<group>";
+		};
+		032DCDF11FD8F43800A4F8EF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				032DCDFB1FD8F49300A4F8EF /* ShoppingMainViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		032DCDF21FD8F43E00A4F8EF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		032DCDF31FD8F44500A4F8EF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				032417E8204D47120009741C /* ShoppingCartMainView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		032DCDF41FD8F44A00A4F8EF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		032DCDF51FD8F45200A4F8EF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				032DCDF91FD8F48500A4F8EF /* ProductCategoryViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		032DCDF61FD8F46000A4F8EF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		032DCDF71FD8F46700A4F8EF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				032417E5204D41EB0009741C /* ProductCategoryMainView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		032DCDF81FD8F46C00A4F8EF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		034CF8372015809F00133858 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				034CF83A201586BE00133858 /* PersonalMainModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		036EB9FA1FD29E130067A3C0 /* AppIcon */ = {
 			isa = PBXGroup;
 			children = (
@@ -219,6 +389,8 @@
 				18EF9F191F7A29EB0020347F /* Request */,
 				18EF9EF91F7A26F40020347F /* Other */,
 				18EF9EFA1F7A27130020347F /* Home */,
+				032DCDED1FD8F3FB00A4F8EF /* ProductCategory */,
+				032DCDEE1FD8F41100A4F8EF /* ShoppingCart */,
 				18EF9EFB1F7A271E0020347F /* Personal */,
 				18EF9EFC1F7A27480020347F /* Login */,
 				18EF9EFD1F7A27580020347F /* Register */,
@@ -252,6 +424,7 @@
 			children = (
 				18EF9EC81F7A259D0020347F /* Main.storyboard */,
 				18EF9ECD1F7A259D0020347F /* LaunchScreen.storyboard */,
+				032DCDFD1FD9145500A4F8EF /* Login.storyboard */,
 			);
 			path = InterfaceBuilder;
 			sourceTree = "<group>";
@@ -259,8 +432,7 @@
 		18EF9EF61F7A26690020347F /* Config */ = {
 			isa = PBXGroup;
 			children = (
-				18EF9EF71F7A26B20020347F /* PrefixHeader.pch */,
-				18EF9EF81F7A26E20020347F /* Config.h */,
+				034CF84020159A6500133858 /* Const.swift */,
 			);
 			path = Config;
 			sourceTree = "<group>";
@@ -288,6 +460,7 @@
 			isa = PBXGroup;
 			children = (
 				18EF9F0A1F7A28D00020347F /* PersonalMain */,
+				032417E7204D425B0009741C /* PersonalSetting */,
 			);
 			path = Personal;
 			sourceTree = "<group>";
@@ -376,7 +549,7 @@
 		18EF9F0A1F7A28D00020347F /* PersonalMain */ = {
 			isa = PBXGroup;
 			children = (
-				18EF9F0E1F7A28FA0020347F /* Model */,
+				034CF8372015809F00133858 /* Model */,
 				18EF9F0D1F7A28F30020347F /* View */,
 				18EF9F0C1F7A28E90020347F /* ViewModel */,
 				18EF9F0B1F7A28E10020347F /* Controller */,
@@ -387,6 +560,7 @@
 		18EF9F0B1F7A28E10020347F /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				032DCDE11FD8F39C00A4F8EF /* PersonalViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -394,6 +568,7 @@
 		18EF9F0C1F7A28E90020347F /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				034CF83E201586FE00133858 /* PersonalMainVM.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -401,21 +576,15 @@
 		18EF9F0D1F7A28F30020347F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				034CF83C201586EE00133858 /* PersonalMainView.swift */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		18EF9F0E1F7A28FA0020347F /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Model;
-			path = "New Group";
 			sourceTree = "<group>";
 		};
 		18EF9F0F1F7A29110020347F /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				032DCDE31FD8F3BB00A4F8EF /* LoginViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -423,6 +592,7 @@
 		18EF9F101F7A29190020347F /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				034A182B1FFB3ABD00603CED /* LoginVM.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -430,6 +600,7 @@
 		18EF9F111F7A291F0020347F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				034A18291FFB352B00603CED /* LoginView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -444,6 +615,7 @@
 		18EF9F131F7A29300020347F /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				032DCDE51FD8F3CB00A4F8EF /* RegisterViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -501,6 +673,10 @@
 		18EF9F1D1F7A2A820020347F /* Forgot */ = {
 			isa = PBXGroup;
 			children = (
+				032DCDEA1FD8F3E200A4F8EF /* Model */,
+				032DCDE91FD8F3DD00A4F8EF /* View */,
+				032DCDE81FD8F3D800A4F8EF /* ViewModel */,
+				032DCDE71FD8F3D200A4F8EF /* Controller */,
 			);
 			path = Forgot;
 			sourceTree = "<group>";
@@ -634,6 +810,7 @@
 			files = (
 				18EF9ECF1F7A259D0020347F /* LaunchScreen.storyboard in Resources */,
 				036EB9FD1FD29E130067A3C0 /* appIcon@2x.png in Resources */,
+				032DCDFE1FD9145500A4F8EF /* Login.storyboard in Resources */,
 				036EB9FE1FD29E130067A3C0 /* appIcon@3x.png in Resources */,
 				18EF9ECC1F7A259D0020347F /* Assets.xcassets in Resources */,
 				18EF9ECA1F7A259D0020347F /* Main.storyboard in Resources */,
@@ -709,19 +886,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				032DCDE41FD8F3BB00A4F8EF /* LoginViewController.swift in Sources */,
 				183599941F7A33FB00DA6114 /* HomeMainView.swift in Sources */,
 				036EB9F91FD29DC40067A3C0 /* BaseButton.swift in Sources */,
+				032DCDE21FD8F39C00A4F8EF /* PersonalViewController.swift in Sources */,
+				034A182A1FFB352B00603CED /* LoginView.swift in Sources */,
+				032DCDE61FD8F3CB00A4F8EF /* RegisterViewController.swift in Sources */,
+				034CF83B201586BE00133858 /* PersonalMainModel.swift in Sources */,
+				032417E6204D41EB0009741C /* ProductCategoryMainView.swift in Sources */,
 				036EB9F71FD29DA70067A3C0 /* BaseCollectionViewCell.swift in Sources */,
+				032DCDFC1FD8F49300A4F8EF /* ShoppingMainViewController.swift in Sources */,
 				036EB9F11FD29D4E0067A3C0 /* BaseViewModel.swift in Sources */,
 				18EF9F1F1F7A2AB40020347F /* BaseTableView.swift in Sources */,
 				186A73401F7CC5CA006A836F /* HomeDetailVC.swift in Sources */,
 				036EBA611FD2AE680067A3C0 /* HomeDetailView.swift in Sources */,
+				034CF84120159A6500133858 /* Const.swift in Sources */,
+				032417E9204D47120009741C /* ShoppingCartMainView.swift in Sources */,
 				036EB9F31FD29D740067A3C0 /* BaseTableViewCell.swift in Sources */,
 				18EF9F091F7A288B0020347F /* BaseNavigationController.swift in Sources */,
+				032DCDFA1FD8F48500A4F8EF /* ProductCategoryViewController.swift in Sources */,
 				036EB9F51FD29D940067A3C0 /* BaseTableViewHeaderFooterView.swift in Sources */,
+				034CF83F201586FE00133858 /* PersonalMainVM.swift in Sources */,
+				034CF83D201586EE00133858 /* PersonalMainView.swift in Sources */,
+				032DCDEC1FD8F3ED00A4F8EF /* ForgotViewController.swift in Sources */,
 				036EB9EF1FD29D350067A3C0 /* BaseModel.swift in Sources */,
 				18EF9EC51F7A259D0020347F /* AppDelegate.swift in Sources */,
 				18EF9F071F7A28430020347F /* BaseViewController.swift in Sources */,
+				034A182C1FFB3ABD00603CED /* LoginVM.swift in Sources */,
 				036EB9ED1FD29D060067A3C0 /* BaseView.swift in Sources */,
 				18EF9F231F7A2C9D0020347F /* HomeMainVC.swift in Sources */,
 				18EF9F211F7A2ACF0020347F /* BaseCollectionView.swift in Sources */,
@@ -892,6 +1083,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = /Users/xiaobai/Desktop/CompanyProjectSwift/CompanyProjectSwift/Classes/Config/Const.swift;
 				INFOPLIST_FILE = "$(SRCROOT)/CompanyProjectSwift/Classes/Other/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LIZHAO.CompanyProjectSwift;
@@ -907,6 +1099,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = /Users/xiaobai/Desktop/CompanyProjectSwift/CompanyProjectSwift/Classes/Config/Const.swift;
 				INFOPLIST_FILE = "$(SRCROOT)/CompanyProjectSwift/Classes/Other/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LIZHAO.CompanyProjectSwift;

@@ -1,0 +1,1 @@
+../../../ImageScout/ImageScout-iOS/ImageScout-iOS.h

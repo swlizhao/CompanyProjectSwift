@@ -10,26 +10,25 @@ import UIKit
 
 class HomeMainVC: BaseViewController {
 
-    @IBOutlet weak var testBtn: UIButton!
-  
-    @IBAction func btnAction(_ sender: UIButton) {
-         print("我被点击了..你不服气啊")
-        let storyboard = UIStoryboard.init(name: "Main", bundle: nil)
-        let detailVC = storyboard.instantiateViewController(withIdentifier: "HomeDetailVC")
-        self.navigationController?.pushViewController(detailVC, animated: true)
-        
-        
-    }
+    var mainView :HomeMainView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        self.view.backgroundColor = UIColor.red
-        self.title = "李潇南"
+        _setup()
     
     }
 
-
+    /**
+     * 初始化视图
+     */
+    func _setup() -> Void {
+        
+        mainView = HomeMainView(frame:CGRect(x:0 ,y:NAVIGATIONBAR_STATUSBAR_HEIGHT,width:VIEW_WIDTH(object: self.view),height:SCREEN_HEIGHT - NAVIGATIONBAR_STATUSBAR_HEIGHT - (TABBAR_HEIGHT ? 49:83)))
+        self.view.addSubview(mainView)
+        print("我是状态栏高度：\(STATUSBAR_HEIGHT)---我是导航栏高度：\(NAVIGATIONBAR_STATUSBAR_HEIGHT)---TabBar高度\(TABBAR_HEIGHT)")
+        mainView.backgroundColor = UIColor.red
+        
+    }
     
 
 

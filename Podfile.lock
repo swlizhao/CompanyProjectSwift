@@ -1,21 +1,73 @@
 PODS:
-  - Alamofire (4.5.1)
+  - Alamofire (4.6.0)
+  - AlamofireImage (3.3.0):
+    - Alamofire (~> 4.5)
+  - BSGridCollectionViewLayout (1.2.0)
+  - BSImagePicker (2.7.1):
+    - BSGridCollectionViewLayout (~> 1.2.0)
+    - UIImageViewModeScaleAspect (= 1.5)
+  - ImageScout (1.0.0)
+  - IQKeyboardManagerSwift (5.0.7)
+  - Ji (2.1.0):
+    - Ji/Ji (= 2.1.0)
+  - Ji/Ji (2.1.0):
+    - Ji/Ji-libxml
+  - Ji/Ji-libxml (2.1.0)
+  - Kingfisher (4.6.1)
+  - PNChart (0.8.9):
+    - UICountingLabel (~> 1.2.0)
   - ReactiveCocoa (7.0.1):
     - ReactiveSwift (~> 3.0)
-  - ReactiveSwift (3.0.0):
+  - ReactiveSwift (3.1.0):
     - Result (~> 3.2)
+  - Realm (3.1.1):
+    - Realm/Headers (= 3.1.1)
+  - Realm/Headers (3.1.1)
   - Result (3.2.4)
+  - RxSwift (4.1.2)
+  - SnapKit (4.0.0)
+  - Spring (1.0.5)
+  - SwiftyJSON (4.0.0)
+  - UICountingLabel (1.2.0)
+  - UIImageViewModeScaleAspect (1.5)
 
 DEPENDENCIES:
-  - Alamofire (~> 4.5.1)
+  - Alamofire (~> 4.6.0)
+  - AlamofireImage (~> 3.3.0)
+  - BSImagePicker (~> 2.7.1)
+  - ImageScout (~> 1.0.0)
+  - IQKeyboardManagerSwift (~> 5.0.7)
+  - Ji (~> 2.1.0)
+  - Kingfisher (~> 4.6.1)
+  - PNChart (~> 0.8.9)
   - ReactiveCocoa (~> 7.0.1)
+  - Realm (~> 3.1.0)
+  - RxSwift (~> 4.1.1)
+  - SnapKit (~> 4.0.0)
+  - Spring (~> 1.0.5)
+  - SwiftyJSON (~> 4.0.0)
 
 SPEC CHECKSUMS:
-  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  AlamofireImage: 2e784dc5d00f04903a52c1d169181469c805c3df
+  BSGridCollectionViewLayout: 8f12c8e1e08c47057f5a39a6828f4395f043d78f
+  BSImagePicker: eb12948a6e71b9855c2c37723dfd989b9b4288bd
+  ImageScout: c765b354226d4d025512f9ff3822918fbaf1e9a7
+  IQKeyboardManagerSwift: 30fb3a61de1af53a95e02b80fb54ed0a19d5ede5
+  Ji: 21946da4e13425485ddd424edfaeeced0d80ad28
+  Kingfisher: 1f9157d9c02b380cbd0b7cc890161195164eb634
+  PNChart: 84774d225c2126ded6c93d4dbe6ae98c3a73c2d2
   ReactiveCocoa: a1b5d502d0d1534f9a72981a485b297b17127f83
-  ReactiveSwift: d9fe0db33c1aaabecb092e8de83cf52875c0de6f
+  ReactiveSwift: 5b26d2e988fe0eed2daf48c4054d1de74db50184
+  Realm: 42d1c38a5b1bbcc828b48a7ce702cb86fc68adf4
   Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
+  RxSwift: e49536837d9901277638493ea537394d4b55f570
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  Spring: 17901566c8ecf3a1327902b940406c64512f9bb1
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+  UICountingLabel: 1db4e7d023e1762171eb226d6dff47a7a84f27aa
+  UIImageViewModeScaleAspect: 11a790a0b9d248a13dc63e3a78991f1463b6d84e
 
-PODFILE CHECKSUM: 4045cabe4c2155b668bdb8a7a3878a4ce7851c5c
+PODFILE CHECKSUM: 447f951193032386eed0d4a514a47914de1a9243
 
 COCOAPODS: 1.2.1
