@@ -16,6 +16,7 @@ class HomeMainVC: BaseViewController {
         super.viewDidLoad()
         _setup()
     
+
     }
 
     /**
@@ -30,7 +31,7 @@ class HomeMainVC: BaseViewController {
         
     }
     
-
-
+    
+    
 
 }

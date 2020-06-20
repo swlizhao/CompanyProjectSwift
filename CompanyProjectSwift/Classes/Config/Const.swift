@@ -57,7 +57,6 @@ let FONTSIZE_15 =  15
 let FONTSIZE_14 =  14
 let FONTSIZE_13 =  13
 let FONTSIZE_12 =  12
-let FONTSIZE_11 =  11
-let FONTSIZE_10 =  10
+
 
 
